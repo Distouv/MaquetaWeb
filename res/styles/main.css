@@ -109,6 +109,17 @@ ul li :hover {
 }
 
 main {
+  display: flex;
   padding: 20px;
   color: #cecece;
+  justify-content: space-around;
+  border: #dddddd 1px solid;
+  height: auto;
 } 
+
+.portada {
+  border: #dddddd 1px solid;
+  width: 40%;
+  height: 80vh;
+}
+
