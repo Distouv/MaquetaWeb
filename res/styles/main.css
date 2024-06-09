@@ -108,7 +108,7 @@ ul li :hover {
     background-color: #555;
 }
 
-main {
+#portada {
   display: flex;
   padding: 20px;
   color: #cecece;
@@ -122,4 +122,5 @@ main {
   width: 40%;
   height: 80vh;
 }
+
 
