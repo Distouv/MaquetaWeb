@@ -10,24 +10,24 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <header>
+    <header id="init">
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de mi</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#" onclick="window.scrollTo(0, 0); return false;">Inicio</a></li>
+                <li><a href="#about">Acerca de mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contactos">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="portada">
-            <div class="portada">
+            <div>
                 <h1>¡Hola! <span>Carlos</span></h1>
                 <p>Desarrollador web</p>
             </div>
 
-            <div class="portada">
+            <div>
                 <h2>Acerca de mi</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
             </div>
@@ -35,7 +35,11 @@
         </section>
 
         <section id="about">
-            
+            <div>
+                <h2>Acerca de mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </div>
+           
         </section>
     </main>
 

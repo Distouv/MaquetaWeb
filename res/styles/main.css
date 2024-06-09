@@ -52,6 +52,9 @@ Fuentes
 }
 */
 
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -83,10 +86,19 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: #262626;
   color: #fff;
   padding: 10px 0;
   text-align: center;
+}
+
+main {
+  margin-top: 60px;
+  padding: 20px;
 }
 
 ul {
@@ -94,20 +106,20 @@ ul {
   justify-content: center;
   align-items: center;
   padding: 10px 0;
-  justify-content: space-around;;
+  justify-content: space-around;
 }
 
-ul li :link, ul li :visited {
-    color: #dddddd;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: all 0.3s;
+ul li a {
+  color: #dddddd;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  text-decoration: none;
 }
 
-ul li :hover {
-    background-color: #555;
+ul li a:hover {
+  background-color: #555;
 }
-
 #portada {
   display: flex;
   padding: 20px;
@@ -117,10 +129,24 @@ ul li :hover {
   height: auto;
 } 
 
-.portada {
+#portada > div {
   border: #dddddd 1px solid;
   width: 40%;
   height: 80vh;
 }
 
+#about {
+  margin-top: 4%;
+  display: flex;
+  padding: 20px;
+  color: #cecece;
+  justify-content: space-around;
+  border: #dddddd 1px solid;
+  height: auto;
+}
 
+#about > div {
+  border: #dddddd 1px solid;
+  width: 40%;
+  height: 80vh;
+}
