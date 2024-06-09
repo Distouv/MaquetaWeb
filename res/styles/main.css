@@ -59,6 +59,9 @@ Fuentes
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 *::before,::after {
@@ -76,11 +79,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: #f4f4f4;
+  background-color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #262626;
   color: #fff;
   padding: 10px 0;
   text-align: center;
@@ -95,12 +98,17 @@ ul {
 }
 
 ul li :link, ul li :visited {
-    color: #fff;
+    color: #dddddd;
     padding: 10px 15px;
     border-radius: 5px;
     transition: all 0.3s;
 }
 
-a::hover {
-    color: gold;
+ul li :hover {
+    background-color: #555;
 }
+
+main {
+  padding: 20px;
+  color: #cecece;
+} 
