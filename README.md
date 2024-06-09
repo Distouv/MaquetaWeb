@@ -1,3 +1,5 @@
+generic description by Gemini
+
 # Portafolio
 
 Bienvenido a mi portafolio personal, donde comparto mis proyectos, habilidades y experiencias.
