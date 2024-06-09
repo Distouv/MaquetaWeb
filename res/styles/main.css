@@ -53,8 +53,7 @@ Fuentes
 */
 
 html {
-  scroll-behavior: smooth
-  ;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -147,6 +146,38 @@ ul li a:hover {
 }
 
 #about > div {
+  border: #dddddd 1px solid;
+  width: 40%;
+  height: 80vh;
+}
+
+#proyectos {
+  margin-top: 4%;
+  display: flex;
+  padding: 20px;
+  color: #cecece;
+  justify-content: space-around;
+  border: #dddddd 1px solid;
+  height: auto;
+}
+
+#proyectos > div {
+  border: #dddddd 1px solid;
+  width: 40%;
+  height: 80vh;
+}
+
+#contacto {
+  margin-top: 4%;
+  display: flex;
+  padding: 20px;
+  color: #cecece;
+  justify-content: space-around;
+  border: #dddddd 1px solid;
+  height: auto;
+}
+
+#contacto > div {
   border: #dddddd 1px solid;
   width: 40%;
   height: 80vh;
