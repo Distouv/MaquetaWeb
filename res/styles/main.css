@@ -74,6 +74,15 @@ ul li a:hover {
   background-color: #555;
 }
 
+nav li a.active {
+  background-color: #b8b8b8;
+  color: #292828;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 #portada {
   display: flex;
   flex-wrap: wrap;
@@ -152,7 +161,6 @@ footer {
   font-style: italic;
 
 }
-
 
 /* Media queries para estilos responsivos */
 
