@@ -39,3 +39,5 @@ function scrollToSection(selector, duration, offset) {
     window.addEventListener('scroll', updateNavLinks);
     updateNavLinks(); // Llama a la función inicialmente para establecer el estado activo correcto al cargar la página
   });
+
+    // Path: res/scripts/main.js
