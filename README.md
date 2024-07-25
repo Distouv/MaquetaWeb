@@ -2,6 +2,14 @@
 
 Esta plantilla de página web está diseñada para ayudarte a crear un portafolio personal moderno y responsivo. Incluye secciones para presentar información sobre ti, tus proyectos y cómo contactarte. Utiliza HTML, CSS y JavaScript.
 
+# Implementación
+
+  Estando en tu carpeta de trabajo , utiliza "git clone https://github.com/Distouv/MaquetaWeb.git"; lo cuál descargará los archivos.
+  Tan sólo renombra la carpeta descargada y activa el workspace.
+ 
+  Feliz trabajo!
+
+
 ## Archivos Incluidos
 
 1. **index.html**: Contiene la estructura principal de la página web.
